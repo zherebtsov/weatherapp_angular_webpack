@@ -1,0 +1,11 @@
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h2>{{$ctrl.weatherData.nameCity}}<img ng-src="http://openweathermap.org/img/w/{{$ctrl.weatherData.icon}}.png"></h2>
+	</div>
+	<div class="panel-body">
+		<p><i class="fa fa-thermometer-half" aria-hidden="true"></i>Температура: {{$ctrl.weatherData.temp}} °C</p>
+		<p><i class="fa fa-tachometer" aria-hidden="true"></i>Давление: {{$ctrl.weatherData.pressure}} мм рт.ст.</p>
+		<p><i class="fa fa-tint" aria-hidden="true"></i>Влажность: {{$ctrl.weatherData.humidity}} %</p>
+		<p><i class="fa fa-location-arrow" aria-hidden="true"></i>Координаты: {{$ctrl.locationCoordsLat}}, {{$ctrl.locationCoordsLon}}</p>
+	</div>
+</div>

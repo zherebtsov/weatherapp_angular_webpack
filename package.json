@@ -1,0 +1,26 @@
+{
+  "name": "WeatherApp",
+  "version": "1.0.0",
+  "description": "show you weather",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "keywords": [],
+  "author": "Dmitry Zherebtsov",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.0",
+    "babel": "^6.5.2",
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-env": "^1.1.1",
+    "bower": "^1.8.0",
+    "css-loader": "^0.26.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

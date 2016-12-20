@@ -1,0 +1,17 @@
+<div class="col-sm-6 col-md-4" ng-repeat="itemCityWeather in $ctrl.itemsCitiesWeather track by $index">
+	<div class="panel panel-info">
+		<div class="panel-heading">
+			<h3>{{itemCityWeather.nameCity}}<img ng-src="http://openweathermap.org/img/w/{{itemCityWeather.icon}}.png" alt=""></h3>
+		</div>
+		<div class="panel-body">
+			<p><i class="fa fa-thermometer-half" aria-hidden="true"></i>Температура: {{itemCityWeather.temp}} °C</p>
+			<p><i class="fa fa-tachometer" aria-hidden="true"></i>Давление: {{itemCityWeather.pressure}} мм рт.ст.</p>
+			<p><i class="fa fa-tint" aria-hidden="true"></i>Влажность: {{itemCityWeather.humidity}} %</p>
+		</div>
+		<div class="panel-footer">
+			<button class="btn btn-danger" type="button" ng-click="$ctrl.delCityWeather($index)">
+				<span class="glyphicon glyphicon-remove"></span> Удалить
+			</button>
+		</div>
+	</div>
+</div>

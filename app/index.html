@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="WeatherApp">
+
+<head>
+	<meta charset="utf-8">
+	<title>WeatherApp Angular</title>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<h1>Погода</h1>
+		<!-- Компонент определяет погоду у пользователя -->
+		<user-city-weather></user-city-weather>
+
+		<!-- Компонент обращается к серверу и по запросу пользователя возвращает погоду в городе -->
+		<!-- В него вложен еще один компонент, который отображает погоду в введеном городе -->
+		<other-cities-weather></other-cities-weather>
+
+		<!-- Main Angular App -->
+		<script src="bundle.js"></script>
+	</div>
+
+</body>
+
+</html>

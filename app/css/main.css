@@ -1,0 +1,49 @@
+/*подключение bootstrap*/
+@import url("/bower_components/bootstrap/dist/css/bootstrap.min.css");
+/*подключение font-awesome*/
+@import url("/bower_components/font-awesome/css/font-awesome.min.css");
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	margin: 25px 0;
+}
+
+h2 {
+	margin: 10px 0;
+}
+
+h3 {
+	margin: 5px 0;
+}
+
+img {
+	margin-left: 10px;
+}
+
+.panel-info {
+	margin-top: 20px;
+}
+
+.red {
+	color: red;
+}
+
+.orange {
+	color: orange;
+}
+
+.fa {
+	width: 15px;
+	color: #999;
+	text-align: right;
+	margin-right: 10px;
+}
