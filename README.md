@@ -1,6 +1,8 @@
 # WeatherApp (Angular 1.6 + WebPack)
 > Приложение разработано в рамках ознакомления с JavaScript-фреймворком [AngularJS](https://angularjs.org/), получения навыков работы с [WebPack](http://webpack.github.io/) и GitHub.
 
+![screenshot](http://image.prntscr.com/image/176c11ddeed9445c948c019696f0fc64.png)
+
 ## Описание
 ---
 WeatherApp - это одностраничное приложение (single-page application), которое отображает погоду в городе пользователя, позволяет по поиску добавлять/удалять дополнительные города и сохраняет информацию с данными о погоде локально в браузере пользователя. Для получения информации о погоде используется API сервиса [OpenWeatherMap](http://openweathermap.org/api).
