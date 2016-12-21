@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Dmitry Zherebtsov",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "angular": "^1.6.0",
     "babel": "^6.5.2",
